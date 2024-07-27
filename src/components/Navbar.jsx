@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 import { styles } from "../styles.js";
 import { NavLink } from 'react-router-dom';
 import { logo, menu, close } from "../assets";
-import {logoHarsh} from "../assets"
+import { px } from 'framer-motion';
+
 
 const Navbar = () => {
 
@@ -22,9 +23,10 @@ const Navbar = () => {
 						window.scrollTo(0, 0);
 					}}>
 					<img
-						src={logoHarsh}
-						alt="logo"
-						className="w-9 h-9 object-contain"></img>
+						src={logo}
+            alt="logo"
+            width={'36px'}
+						className=" object-contain"></img>
 				</Link>
 			</div>
 		</nav>
