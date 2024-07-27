@@ -21,10 +21,18 @@ import {
 	starbucks,
 	tesla,
 	shopify,
+	Airbnb,
+	shoppingCart,
+	blogContext,
 	carrent,
 	jobit,
+	leetcode,
+	gfg,
+	coding_ninjas,
 	tripguide,
 	threejs,
+	snakeGame,
+	razorpayClone,
 } from "../assets";
 
 export const navLinks = [
@@ -34,7 +42,11 @@ export const navLinks = [
 	},
 	{
 		id: "work",
-		title: "Work",
+		title: "Profiles",
+	},
+	{
+		id: "project",
+		title: "Projects",
 	},
 	{
 		id: "contact",
@@ -44,20 +56,20 @@ export const navLinks = [
 
 const services = [
 	{
+		title: "Data Structures and Algorithms",
+		icon: creator,
+	},
+	{
 		title: "Web Developer",
 		icon: web,
 	},
 	{
-		title: "React Native Developer",
+		title: "Frontend Developer",
 		icon: mobile,
 	},
 	{
 		title: "Backend Developer",
 		icon: backend,
-	},
-	{
-		title: "Content Creator",
-		icon: creator,
 	},
 ];
 
@@ -74,10 +86,7 @@ const technologies = [
 		name: "JavaScript",
 		icon: javascript,
 	},
-	{
-		name: "TypeScript",
-		icon: typescript,
-	},
+	
 	{
 		name: "React JS",
 		icon: reactjs,
@@ -98,76 +107,49 @@ const technologies = [
 		name: "MongoDB",
 		icon: mongodb,
 	},
-	{
-		name: "Three JS",
-		icon: threejs,
-	},
+
 	{
 		name: "git",
 		icon: git,
-	},
-	{
-		name: "figma",
-		icon: figma,
-	},
-	{
-		name: "docker",
-		icon: docker,
 	},
 ];
 
 const experiences = [
 	{
-		title: "React.js Developer",
-		company_name: "Starbucks",
-		icon: starbucks,
+		title: "harshbhar_0629",
+		company_name: "Leetcode",
+		icon: leetcode,
 		iconBg: "#383E56",
-		date: "March 2020 - April 2021",
+		date: "900+ Questions",
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
+			" Achieved a contest rating of 1900+ and secured the Knight badge on LeetCode, ranking in the top 4.49% globally.",
+			"During problem-solving on Leetcode, I'm understand the crux of complex problems and how to approach Data Structures and Algorithms questions effectively. ",
 		],
+		link: "https://leetcode.com/u/harshbhar_0629/",
 	},
 	{
-		title: "React Native Developer",
-		company_name: "Tesla",
-		icon: tesla,
-		iconBg: "#E6DEDD",
-		date: "Jan 2021 - Feb 2022",
-		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
-		],
-	},
-	{
-		title: "Web Developer",
-		company_name: "Shopify",
-		icon: shopify,
+		title: "harshbhogui",
+		company_name: "GeeksforGeeks",
+		icon: gfg,
 		iconBg: "#383E56",
-		date: "Jan 2022 - Jan 2023",
+		date: "200+ Questions",
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
+			" Achieved a contest rating of 1800+ and secured the 4⭐ on GFG, overall rank 846.",
+			"During problem-solving on GeeksforGeeks, I'm understand the crux of complex problems and how to approach Data Structures and Algorithms questions effectively. ",
 		],
+		link: "https://www.geeksforgeeks.org/user/harshbhogui/",
 	},
 	{
-		title: "Full stack Developer",
-		company_name: "Meta",
-		icon: meta,
-		iconBg: "#E6DEDD",
-		date: "Jan 2023 - Present",
+		title: "Harsh Bhardwaj",
+		company_name: "Code360 by Coding Ninjas",
+		icon: coding_ninjas,
+		iconBg: "#383E56",
+		date: "100+ Questions",
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
+			" Achieved a contest rating of 2500+ and secured the Master badge, ranking in the top 8% globally.",
+			"During problem-solving on Coding ninjas, I'm understand the crux of complex problems and how to approach Data Structures and Algorithms questions effectively.",
 		],
+		link: "https://www.naukri.com/code360/profile/4e6dc998-0250-4542-806e-41a267198e57",
 	},
 ];
 
@@ -200,12 +182,12 @@ const testimonials = [
 
 const projects = [
 	{
-		name: "Car Rent",
+		name: "Airbnb",
 		description:
-			"Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+			"Developed a full-stack project with the MVC framework for managing property listings and bookings. Incorporated user authentication, database relationships, and RESTful APIs. Designed a UI similar to Airbnb’s, boosting user engagement by 30% through improved navigation and interactivity. Achieved a 40% reduction in code duplication with a modular and scalable architecture. Enhanced maintainability for future upgrades.",
 		tags: [
 			{
-				name: "react",
+				name: "Nodejs",
 				color: "blue-text-gradient",
 			},
 			{
@@ -213,45 +195,74 @@ const projects = [
 				color: "green-text-gradient",
 			},
 			{
-				name: "tailwind",
+				name: "Express",
+				color: "blue-text-gradient",
+			},
+
+			{
+				name: "bootstrap",
 				color: "pink-text-gradient",
 			},
 		],
-		image: carrent,
-		source_code_link: "https://github.com/",
+		image: Airbnb,
+		source_code_link:
+			"https://github.com/harshbhar0629/Major-project/tree/main/major-project01",
 	},
 	{
-		name: "Job IT",
+		name: "Shopping-Cart",
 		description:
-			"Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+			"Implemented React.js, Redux Toolkit, and React Router for smooth navigation and state management, improving responsiveness by 40%. Enhanced the homepage with real-time product images and descriptions, boosting user engagement by 25%. Enabled instant feedback on add/remove actions, reducing error rates by 30%. Added a cart feature allowing users to add and remove items, further enhancing the user experience.",
 		tags: [
 			{
-				name: "react",
+				name: "reactjs",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "restapi",
+				name: "redux-toolkit",
 				color: "green-text-gradient",
 			},
 			{
-				name: "scss",
+				name: "tailwindCSS",
 				color: "pink-text-gradient",
 			},
 		],
-		image: jobit,
-		source_code_link: "https://github.com/",
+		image: shoppingCart,
+		source_code_link:
+			"https://github.com/harshbhar0629/ReactJs/tree/main/React_Advance/shopping_cart",
 	},
 	{
-		name: "Trip Guide",
+		name: "Blog-Context",
 		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+			"I've developed a dynamic blog application using React.js and the React Context API. It features interactive cards with details like title, author, date, description, and hashtags. Key features include clickable hashtags for related information, title-based search for posts, and efficient data management through centralized API fetching. This approach enhances performance and simplifies state management, making the app more scalable and maintainable.",
 		tags: [
 			{
-				name: "nextjs",
+				name: "reactjs",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "supabase",
+				name: "ApiContext",
+				color: "green-text-gradient",
+			},
+			{
+				name: "tailwindCSS",
+				color: "pink-text-gradient",
+			},
+		],
+		image: blogContext,
+		source_code_link:
+			"https://github.com/harshbhar0629/ReactJs/tree/main/React_Advance/blog-context",
+	},
+	{
+		name: "Snake Game",
+		description:
+			"I’ve completed a modern version of the classic Snake game using JavaScript. The game features a defined boundary, dynamic gameplay with randomly appearing food, and increasing speed with each meal. Smooth controls handle snake movement, collision detection, and scoring. Technologies used include JavaScript for game logic and HTML/CSS for interface design. This project was a great way to enhance my JavaScript skills and put a fresh spin on a childhood favorite.",
+		tags: [
+			{
+				name: "Javascript",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "HTML",
 				color: "green-text-gradient",
 			},
 			{
@@ -259,8 +270,31 @@ const projects = [
 				color: "pink-text-gradient",
 			},
 		],
-		image: tripguide,
-		source_code_link: "https://github.com/",
+		image: snakeGame,
+		source_code_link:
+			"https://github.com/harshbhar0629/JavaScript/tree/main/js/Snake_game",
+	},
+	{
+		name: "RazorPay-Clone",
+		description:
+			"I have completed a Razorpay UI clone project, enhancing my expertise in Tailwind CSS and CSS fundamentals. Tailwind CSS uses pre-defined utility classes for styling, allowing for quick and efficient design directly in HTML. This method is flexible, customizable, and ideal for creating responsive designs. The project presented challenges that deepened my understanding and refined my frontend development skills.",
+		tags: [
+			{
+				name: "HTML",
+				color: "green-text-gradient",
+			},
+			{
+				name: "css",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "tailwindCSS",
+				color: "blue-text-gradient",
+			},
+		],
+		image: razorpayClone,
+		source_code_link:
+			"https://github.com/harshbhar0629/TailwindCss/tree/main/Tailwind/razor_pay_clone",
 	},
 ];
 
