@@ -8,7 +8,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import { socials, personalInfo } from "../constants";
+import { socials, personalInfo } from "../constant";
 
 const Contact = () => {
 	const formRef = useRef();
@@ -130,7 +130,7 @@ const Contact = () => {
 				</motion.div>
 			</div>
 
-			<div className="w-[90%] sm:max-w-[80%] mx-auto flex flex-row justify-evenly items-center gap-10 bg-[#151030] mt-[50px] py-[15px] px-[30px] flex-wrap rounded-md">
+			<div className="w-full sm:max-w-[80%] mx-auto flex sm:flex-row flex-col justify-evenly items-center gap-10 bg-[#151030] mt-[50px] py-[10px] sm:py-[15px] sm:px-[30px] flex-wrap rounded-md">
 				{socials.map((social) => (
 					<div
 						key={social.id}
@@ -140,11 +140,17 @@ const Contact = () => {
 							width={`40px`}
 							height={`40px`}></img>
 						{social.id === 1 ? (
-							<p className="underline">{social.name}</p>
+							<p className="underline text-[12px]">
+								{social.name}
+							</p>
 						) : (
-								<a className="underline" href={social.link} target="_blank">{social.name}</a>
+							<a
+								className="underline sm:text-[12px] text-[10px]"
+								href={social.link}
+								target="_blank">
+								{social.name}
+							</a>
 						)}
-						
 					</div>
 				))}
 			</div>

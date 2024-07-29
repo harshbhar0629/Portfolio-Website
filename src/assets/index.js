@@ -1,3 +1,5 @@
+/** @format */
+
 import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -6,10 +8,10 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import Airbnb from "./Airbnb.png"
+import Airbnb from "./Airbnb.png";
 import shoppingCart from "./shoppingCart.png";
 import blogContext from "./blogContext.png";
-import snakeGame from "./snakeGame.png"
+import snakeGame from "./snakeGame.png";
 import razorpayClone from "./razorpayClone.png";
 import github2 from "./github-2.png";
 import linkedin from "./linkedin.png";
@@ -25,12 +27,11 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import cpp from "./tech/cpp.png"
+import cpp from "./tech/cpp.png";
 
 import leetcode from "./company/leetcode.png";
 import coding_ninjas from "./company/coding_ninjas.png";
 import gfg from "./company/gfg.png";
-
 
 export {
 	logo,
@@ -42,7 +43,6 @@ export {
 	menu,
 	close,
 	css,
-	
 	git,
 	html,
 	javascript,
@@ -63,5 +63,5 @@ export {
 	cpp,
 	linkedin,
 	gmail,
-	phoneCall
+	phoneCall,
 };

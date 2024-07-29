@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import "react-vertical-timeline-component/style.min.css";
 
 import { styles } from "../styles";
-import { experiences } from "../constants";
+import { experiences } from "../constant";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
@@ -33,7 +33,7 @@ const ExperienceCard = ({ experience }) => {
 			}>
 			<div>
 				<a href={`${experience.link}`} target="_blank">
-					<h3 className="text-white text-[24px] font-bold underline">
+					<h3 className="text-white sm:text-[24px] text-[16px] font-bold underline">
 						{experience.title}
 					</h3>
 				</a>

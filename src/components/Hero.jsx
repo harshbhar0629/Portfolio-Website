@@ -1,10 +1,12 @@
+/** @format */
+
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
-  return (
+	return (
 		<section className={`relative w-full h-screen mx-auto`}>
 			<div
 				className={`absolute inset-0 top-[140px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}>
@@ -17,7 +19,6 @@ const Hero = () => {
 					<h1 className={`${styles.heroHeadText} text-white`}>
 						Hi, I'm <span className="text-[#915EFF]">Harsh Bhardwaj</span>
 					</h1>
-					
 				</div>
 			</div>
 
