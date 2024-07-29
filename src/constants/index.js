@@ -33,6 +33,11 @@ import {
 	threejs,
 	snakeGame,
 	razorpayClone,
+	github2,
+	cpp,
+	phoneCall,
+	gmail,
+	linkedin,
 } from "../assets";
 
 export const navLinks = [
@@ -60,7 +65,7 @@ const services = [
 		icon: creator,
 	},
 	{
-		title: "Web Developer",
+		title: "MERN Stack",
 		icon: web,
 	},
 	{
@@ -71,22 +76,22 @@ const services = [
 		title: "Backend Developer",
 		icon: backend,
 	},
+	{
+		title: "Git & GitHub",
+		icon: github2,
+	}
 ];
 
 const technologies = [
 	{
-		name: "HTML 5",
-		icon: html,
-	},
-	{
-		name: "CSS 3",
-		icon: css,
+		name: "C++",
+		icon: cpp,
 	},
 	{
 		name: "JavaScript",
 		icon: javascript,
 	},
-	
+
 	{
 		name: "React JS",
 		icon: reactjs,
@@ -94,10 +99,6 @@ const technologies = [
 	{
 		name: "Redux Toolkit",
 		icon: redux,
-	},
-	{
-		name: "Tailwind CSS",
-		icon: tailwind,
 	},
 	{
 		name: "Node JS",
@@ -109,8 +110,20 @@ const technologies = [
 	},
 
 	{
-		name: "git",
+		name: "Git",
 		icon: git,
+	},
+	{
+		name: "HTML",
+		icon: html,
+	},
+	{
+		name: "CSS",
+		icon: css,
+	},
+	{
+		name: "Tailwind CSS",
+		icon: tailwind,
 	},
 ];
 
@@ -178,6 +191,22 @@ const testimonials = [
 		company: "456 Enterprises",
 		image: "https://randomuser.me/api/portraits/women/6.jpg",
 	},
+];
+
+const socials = [
+	{
+		name: "Gmail",
+		icon: gmail,
+		link: "harshbhar.0629@gmail.com",
+		type: "email"
+	},
+	{
+		name: "Linkedin",
+		icon: linkedin,
+		link: "https://www.linkedin.com/in/harsh-bhardwaj-28491a249/",
+		type: "url"
+	},
+	
 ];
 
 const projects = [
@@ -298,4 +327,4 @@ const projects = [
 	},
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, socials };

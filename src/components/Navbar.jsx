@@ -13,7 +13,7 @@ const Navbar = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
-      if (scrollTop > 100) {
+      if (scrollTop > 60) {
         setScrolled(true);
       } else {
         setScrolled(false);
@@ -31,7 +31,7 @@ const Navbar = () => {
         styles.paddingX
       } w-full flex items-center py-5 fixed top-0 z-20 ${
         scrolled ? "bg-primary" : "bg-transparent"
-      }`}
+      } transition-all duration-100 ease-linear scroll-smooth`}
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link
@@ -43,13 +43,13 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt='logo' className='w-14 h-14 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
+          <p className='text-white text-[18px] font-bold cursor-pointer flex items-center'>
             Harsh Bhardwaj &nbsp;
-            <span className='sm:block hidden'> | Portfolio</span>
+            <span className='lg:block hidden'> | Portfolio</span>
           </p>
         </Link>
 
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+        <ul className='list-none hidden md:flex flex-row gap-10'>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -63,7 +63,7 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <div className='sm:hidden flex flex-1 justify-end items-center'>
+        <div className='md:hidden flex flex-1 justify-end items-center'>
           <img
             src={toggle ? close : menu}
             alt='menu'
@@ -76,7 +76,7 @@ const Navbar = () => {
               !toggle ? "hidden" : "flex"
             } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
-            <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4'>
+            <ul className='list-none flex justify-end items-start flex-1 flex-col lg:gap-4 md:gap-3'>
               {navLinks.map((nav) => (
                 <li
                   key={nav.id}

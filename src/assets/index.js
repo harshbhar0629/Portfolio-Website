@@ -11,6 +11,10 @@ import shoppingCart from "./shoppingCart.png";
 import blogContext from "./blogContext.png";
 import snakeGame from "./snakeGame.png"
 import razorpayClone from "./razorpayClone.png";
+import github2 from "./github-2.png";
+import linkedin from "./linkedin.png";
+import phoneCall from "./phone-call.png";
+import gmail from "./gmail.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -25,6 +29,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import cpp from "./tech/cpp.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -75,4 +80,9 @@ export {
 	blogContext,
 	snakeGame,
 	razorpayClone,
+	github2,
+	cpp,
+	linkedin,
+	gmail,
+	phoneCall
 };
