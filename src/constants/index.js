@@ -195,18 +195,34 @@ const testimonials = [
 
 const socials = [
 	{
-		name: "Gmail",
+		id: 1,
+		name: "+91 88698 26279",
+		icon: phoneCall,
+		link: "/",
+		
+	},
+
+	{
+		id: "2",
+		name: "harshbhar.0629@gmail.com",
 		icon: gmail,
-		link: "harshbhar.0629@gmail.com",
-		type: "email"
+		link: "mailto:harshbhar.0629@gmail.com",
+		
 	},
 	{
+		id: "3",
 		name: "Linkedin",
 		icon: linkedin,
 		link: "https://www.linkedin.com/in/harsh-bhardwaj-28491a249/",
-		type: "url"
-	},
 	
+	},
+	{
+		id: "4",
+		name: "Github",
+		icon: github2,
+		link: "https://github.com/harshbhar0629/",
+	
+	},
 ];
 
 const projects = [

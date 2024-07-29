@@ -130,16 +130,20 @@ const Contact = () => {
 				</motion.div>
 			</div>
 
-			<div className=" max-w-[80%] mx-auto flex flex-row justify-evenly items-center gap-10 bg-[#151030] mt-[50px] py-[15px] px-[30px] flex-wrap rounded-md">
+			<div className="w-[90%] sm:max-w-[80%] mx-auto flex flex-row justify-evenly items-center gap-10 bg-[#151030] mt-[50px] py-[15px] px-[30px] flex-wrap rounded-md">
 				{socials.map((social) => (
 					<div
-						key={social.name}
+						key={social.id}
 						className=" cursor-pointer flex flex-col justify-center items-center gap-[5px]">
 						<img
 							src={social.icon}
 							width={`40px`}
 							height={`40px`}></img>
-						<a className="underline" href={social.type === "url"? social.link : ""} target="_blank">{social.type === "url"? "Link" : social.link}</a>
+						{social.id === 1 ? (
+							<p className="underline">{social.name}</p>
+						) : (
+								<a className="underline" href={social.link} target="_blank">{social.name}</a>
+						)}
 						
 					</div>
 				))}
