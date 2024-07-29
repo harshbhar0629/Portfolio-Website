@@ -6,7 +6,7 @@ import {
 	creator,
 	web,
 	javascript,
-	typescript,
+	
 	html,
 	css,
 	reactjs,
@@ -15,22 +15,15 @@ import {
 	nodejs,
 	mongodb,
 	git,
-	figma,
-	docker,
-	meta,
-	starbucks,
-	tesla,
-	shopify,
+	
 	Airbnb,
 	shoppingCart,
 	blogContext,
-	carrent,
-	jobit,
+
 	leetcode,
 	gfg,
 	coding_ninjas,
-	tripguide,
-	threejs,
+	
 	snakeGame,
 	razorpayClone,
 	github2,
@@ -166,32 +159,6 @@ const experiences = [
 	},
 ];
 
-const testimonials = [
-	{
-		testimonial:
-			"I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-		name: "Sara Lee",
-		designation: "CFO",
-		company: "Acme Co",
-		image: "https://randomuser.me/api/portraits/women/4.jpg",
-	},
-	{
-		testimonial:
-			"I've never met a web developer who truly cares about their clients' success like Rick does.",
-		name: "Chris Brown",
-		designation: "COO",
-		company: "DEF Corp",
-		image: "https://randomuser.me/api/portraits/men/5.jpg",
-	},
-	{
-		testimonial:
-			"After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-		name: "Lisa Wang",
-		designation: "CTO",
-		company: "456 Enterprises",
-		image: "https://randomuser.me/api/portraits/women/6.jpg",
-	},
-];
 
 const socials = [
 	{
@@ -343,4 +310,11 @@ const projects = [
 	},
 ];
 
-export { services, technologies, experiences, testimonials, projects, socials };
+const personalInfo = {
+	MY_EMAIL: "harshbhar.0629@gmail.com",
+	TEMPLATE_ID: "template_2bbruve",
+	SERVICE_ID: "service_4fhjky4",
+	PUBLIC_ID: "ORPIVrUB91WOaDgK-",
+};
+
+export { services, technologies, experiences,  projects, socials, personalInfo };

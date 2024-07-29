@@ -17,8 +17,6 @@ import phoneCall from "./phone-call.png";
 import gmail from "./gmail.png";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -27,21 +25,12 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
 import cpp from "./tech/cpp.png"
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import leetcode from "./company/leetcode.png";
 import coding_ninjas from "./company/coding_ninjas.png";
 import gfg from "./company/gfg.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 
 export {
 	logo,
@@ -53,8 +42,7 @@ export {
 	menu,
 	close,
 	css,
-	docker,
-	figma,
+	
 	git,
 	html,
 	javascript,
@@ -63,15 +51,6 @@ export {
 	reactjs,
 	redux,
 	tailwind,
-	typescript,
-	threejs,
-	meta,
-	shopify,
-	starbucks,
-	tesla,
-	carrent,
-	jobit,
-	tripguide,
 	leetcode,
 	coding_ninjas,
 	gfg,
