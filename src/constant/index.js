@@ -167,7 +167,7 @@ const socials = [
 		id: "2",
 		name: "harshbhar.0629@gmail.com",
 		icon: gmail,
-		link: "mailto:harshbhar.0629@gmail.com",
+		link: "https://mailto:harshbhar.0629@gmail.com",
 	},
 	{
 		id: "3",
