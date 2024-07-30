@@ -17,6 +17,7 @@ import github2 from "./github-2.png";
 import linkedin from "./linkedin.png";
 import phoneCall from "./phone-call.png";
 import gmail from "./gmail.png";
+import topmate from "./topmate.png";
 
 import css from "./tech/css.png";
 import git from "./tech/git.png";
@@ -64,4 +65,5 @@ export {
 	linkedin,
 	gmail,
 	phoneCall,
+	topmate,
 };

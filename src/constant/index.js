@@ -27,6 +27,7 @@ import {
 	phoneCall,
 	gmail,
 	linkedin,
+	topmate,
 } from "../assets";
 
 export const navLinks = [
@@ -162,7 +163,12 @@ const socials = [
 		icon: phoneCall,
 		link: "/",
 	},
-
+	{
+		id: 2,
+		name: "Topmate",
+		icon: topmate,
+		link: "https://topmate.io/harshbhar0629",
+	},
 	{
 		id: "3",
 		name: "Linkedin",
