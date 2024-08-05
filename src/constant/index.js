@@ -208,8 +208,7 @@ const projects = [
 			},
 		],
 		image: Airbnb,
-		source_code_link:
-			"https://github.com/harshbhar0629/Major-project/tree/main/major-project01",
+		source_code_link: "https://github.com/harshbhar0629/Airbnb-website",
 	},
 	{
 		name: "Shopping-Cart",
