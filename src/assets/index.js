@@ -33,6 +33,9 @@ import cpp from "./tech/cpp.png";
 import leetcode from "./company/leetcode.png";
 import coding_ninjas from "./company/coding_ninjas.png";
 import gfg from "./company/gfg.png";
+import EdTech from "./company/ed-tech.png";
+import SwarnimBharat from "./company/swarnim-bharat.png";
+import Aliste from "./company/aliste.png";
 
 export {
 	logo,
@@ -66,4 +69,7 @@ export {
 	gmail,
 	phoneCall,
 	topmate,
+	EdTech,
+	SwarnimBharat,
+	Aliste
 };

@@ -15,19 +15,16 @@ import {
 	mongodb,
 	git,
 	Airbnb,
-	shoppingCart,
-	blogContext,
 	leetcode,
 	gfg,
 	coding_ninjas,
-	snakeGame,
-	razorpayClone,
 	github2,
 	cpp,
 	phoneCall,
-	gmail,
 	linkedin,
-	topmate,
+	EdTech,
+	SwarnimBharat,
+	Aliste,
 } from "../assets";
 
 export const navLinks = [
@@ -37,7 +34,7 @@ export const navLinks = [
 	},
 	{
 		id: "work",
-		title: "Profiles",
+		title: "Experience & Profiles",
 	},
 	{
 		id: "project",
@@ -119,6 +116,19 @@ const technologies = [
 
 const experiences = [
 	{
+		title: "Full-Stack Intern",
+		company_name: "@Aliste Technologies",
+		icon: Aliste,
+		iconBg: "#383E56",
+		date: "Jan-2025 (4 Months)",
+		points: [
+			"Optimized backend APIs, improving performance by 2.4x, resolving critical bugs, and enhancing system architecture, which led to faster response times, improved stability, and a more efficient user experience.",
+			"Designed and implemented a Device Tracker System to replace manual notebook tracking, resulting in a 10x improvement in operational efficiency and enhanced accountability and asset visibility across teams.",
+			"Developed and deployed an Expense Tracker to automate expense reporting, eliminating the reliance on ad-hoc methods (email/WhatsApp), and improving internal workflows, leading to an 60-70% increase in efficiency for processing and tracking expenses.",
+		],
+		link: "",
+	},
+	{
 		title: "harshbhar_0629",
 		company_name: "Leetcode",
 		icon: leetcode,
@@ -164,12 +174,6 @@ const socials = [
 		link: "/",
 	},
 	{
-		id: 2,
-		name: "Topmate",
-		icon: topmate,
-		link: "https://topmate.io/harshbhar0629",
-	},
-	{
 		id: "3",
 		name: "Linkedin",
 		icon: linkedin,
@@ -185,118 +189,62 @@ const socials = [
 
 const projects = [
 	{
-		name: "Airbnb",
+		name: "Ed-Tech Platform",
 		description:
-			"Developed a full-stack project with the MVC framework for managing property listings and bookings. Incorporated user authentication, database relationships, and RESTful APIs. Designed a UI similar to Airbnb’s, boosting user engagement by 30% through improved navigation and interactivity. Achieved a 40% reduction in code duplication with a modular and scalable architecture. Enhanced maintainability for future upgrades.",
+			"StudyNotion is a full-stack EdTech platform developed using the MERN stack (MongoDB, Express.js, React.js, Node.js), built to support structured learning and course management for both students and instructors. It features user authentication with JWT and OTP, course creation and consumption workflows, Razorpay integration for payments, and media storage via Cloudinary. The application follows a modular REST API design and is deployed using Vercel (frontend), Railway/Render (backend), and MongoDB Atlas (database). Designed with scalability and maintainability in mind, it also lays the foundation for future capabilities like personalized learning paths, gamification, and a mobile application.",
 		tags: [
 			{
 				name: "Nodejs",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "mongodb",
+				name: "MongoDB",
 				color: "green-text-gradient",
 			},
 			{
-				name: "Express",
+				name: "ExpressJs",
 				color: "blue-text-gradient",
 			},
-
 			{
-				name: "bootstrap",
+				name: "ReactJs",
+				color: "green-text-gradient",
+			},
+			{
+				name: "TailwindCSS",
 				color: "pink-text-gradient",
 			},
 		],
-		image: Airbnb,
-		source_code_link: "https://github.com/harshbhar0629/Airbnb-website",
+		image: EdTech,
+		source_code_link: "https://github.com/harshbhar0629/Ed-Tech-Platform",
 	},
 	{
-		name: "Shopping-Cart",
+		name: "Swarnim Bharat",
 		description:
-			"Implemented React.js, Redux Toolkit, and React Router for smooth navigation and state management, improving responsiveness by 40%. Enhanced the homepage with real-time product images and descriptions, boosting user engagement by 25%. Enabled instant feedback on add/remove actions, reducing error rates by 30%. Added a cart feature allowing users to add and remove items, further enhancing the user experience.",
+			"Swarnim Bharat is a React.js-based web application designed to present India’s cultural and historical heritage through structured content and interactive components. The platform includes secure login and signup functionality, managed using React Redux for predictable and scalable state management. It features image carousels (Slick Carousel) to highlight over 30 cultural landmarks, Google Map React and embedded iframes for spatial context, and React-Speech integration to support accessibility through text-to-speech. Built with React.js, Redux, NPM, Reactstrap, and Remixicon, the application follows responsive design principles and delivers consistent performance across devices.",
 		tags: [
 			{
-				name: "reactjs",
+				name: "Nodejs",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "redux-toolkit",
+				name: "MongoDB",
 				color: "green-text-gradient",
 			},
 			{
-				name: "tailwindCSS",
-				color: "pink-text-gradient",
-			},
-		],
-		image: shoppingCart,
-		source_code_link:
-			"https://github.com/harshbhar0629/ReactJs/tree/main/React_Advance/shopping_cart",
-	},
-	{
-		name: "Blog-Context",
-		description:
-			"I've developed a dynamic blog application using React.js and the React Context API. It features interactive cards with details like title, author, date, description, and hashtags. Key features include clickable hashtags for related information, title-based search for posts, and efficient data management through centralized API fetching. This approach enhances performance and simplifies state management, making the app more scalable and maintainable.",
-		tags: [
-			{
-				name: "reactjs",
+				name: "ExpressJs",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "ApiContext",
+				name: "ReactJs",
 				color: "green-text-gradient",
 			},
 			{
-				name: "tailwindCSS",
+				name: "Bootstrap",
 				color: "pink-text-gradient",
 			},
 		],
-		image: blogContext,
-		source_code_link:
-			"https://github.com/harshbhar0629/ReactJs/tree/main/React_Advance/blog-context",
-	},
-	{
-		name: "Snake Game",
-		description:
-			"I’ve completed a modern version of the classic Snake game using JavaScript. The game features a defined boundary, dynamic gameplay with randomly appearing food, and increasing speed with each meal. Smooth controls handle snake movement, collision detection, and scoring. Technologies used include JavaScript for game logic and HTML/CSS for interface design. This project was a great way to enhance my JavaScript skills and put a fresh spin on a childhood favorite.",
-		tags: [
-			{
-				name: "Javascript",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "HTML",
-				color: "green-text-gradient",
-			},
-			{
-				name: "css",
-				color: "pink-text-gradient",
-			},
-		],
-		image: snakeGame,
-		source_code_link:
-			"https://github.com/harshbhar0629/JavaScript/tree/main/js/Snake_game",
-	},
-	{
-		name: "RazorPay-Clone",
-		description:
-			"I have completed a Razorpay UI clone project, enhancing my expertise in Tailwind CSS and CSS fundamentals. Tailwind CSS uses pre-defined utility classes for styling, allowing for quick and efficient design directly in HTML. This method is flexible, customizable, and ideal for creating responsive designs. The project presented challenges that deepened my understanding and refined my frontend development skills.",
-		tags: [
-			{
-				name: "HTML",
-				color: "green-text-gradient",
-			},
-			{
-				name: "css",
-				color: "pink-text-gradient",
-			},
-			{
-				name: "tailwindCSS",
-				color: "blue-text-gradient",
-			},
-		],
-		image: razorpayClone,
-		source_code_link:
-			"https://github.com/harshbhar0629/TailwindCss/tree/main/Tailwind/razor_pay_clone",
+		image: SwarnimBharat,
+		source_code_link: "https://github.com/harshbhar0629/Swarnim-Bharat",
 	},
 ];
 

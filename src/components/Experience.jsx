@@ -32,11 +32,20 @@ const ExperienceCard = ({ experience }) => {
 				</div>
 			}>
 			<div>
-				<a href={`${experience.link}`} target="_blank">
+				{experience.link !== "" ? (
+					<a
+						href={`${experience.link}`}
+						target="_blank">
+						<h3 className="text-white sm:text-[24px] text-[16px] font-bold underline">
+							{experience.title}
+						</h3>
+					</a>
+				) : (
 					<h3 className="text-white sm:text-[24px] text-[16px] font-bold underline">
 						{experience.title}
 					</h3>
-				</a>
+				)}
+
 				<p
 					className="text-secondary text-[16px] font-semibold"
 					style={{ margin: 0 }}>
@@ -65,7 +74,7 @@ const Experience = () => {
           What I have done so far
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Coding Profiles
+          Experience & Profiles
         </h2>
       </motion.div>
 
